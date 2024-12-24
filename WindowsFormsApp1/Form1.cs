@@ -214,10 +214,17 @@ namespace WindowsFormsApp1
                 if (openFileDialog.ShowDialog() == DialogResult.OK)
                 {
                     StringBuilder fileName = new StringBuilder(openFileDialog.FileName);
-
                     LoadData(fileName);
-                    currentIndex = 0;
-                    UpdateListBox();
+                    try
+                    {
+                        currentIndex = 0;
+                        UpdateListBox();
+                    }
+                    catch
+                    {
+                        currentIndex = -1;
+                        UpdateListBox();
+                    }
                 }
             }
         }
@@ -251,17 +258,19 @@ namespace WindowsFormsApp1
 
             if (student.baseclass)
             {
-                group_name.Text = "Не доступно";
-                group_name.Enabled = false;
-                email.Text = "Не доступно";
-                email.Enabled = false;
+                group_name.Visible = false;
+                email.Visible = false;
+                label4.Visible = false;
+                label5.Visible = false;
             }
             else
             {
-                group_name.Enabled = true;
+                group_name.Visible = true;
                 group_name.Text = student.group_name;
-                email.Enabled = true;
+                email.Visible = true;
                 email.Text = student.email;
+                label4.Visible = true;
+                label5.Visible = true;
             }
         }
     }
