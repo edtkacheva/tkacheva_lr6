@@ -3,7 +3,7 @@
   "WorkspaceRootPath": "C:\\Users\\katuha\\Documents\\files\\study\\5sem\\tkacheva_lr6\\WindowsFormsApp1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{FEF9A98B-7448-45ED-92EE-17F36FCCDB60}|WindowsFormsApp1.csproj|C:\\Users\\katuha\\Documents\\files\\study\\5sem\\tkacheva_lr6\\WindowsFormsApp1\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{FEF9A98B-7448-45ED-92EE-17F36FCCDB60}|WindowsFormsApp1.csproj|c:\\users\\katuha\\documents\\files\\study\\5sem\\tkacheva_lr6\\windowsformsapp1\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FEF9A98B-7448-45ED-92EE-17F36FCCDB60}|WindowsFormsApp1.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -239,8 +239,7 @@
               "RelativeToolTip": "..\\Dll\\tkacheva_student.cpp",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-12-23T19:59:39.549Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-23T19:59:39.549Z"
             },
             {
               "$type": "Document",
@@ -250,7 +249,7 @@
               "RelativeDocumentMoniker": "Form1.cs",
               "ToolTip": "C:\\Users\\katuha\\Documents\\files\\study\\5sem\\tkacheva_lr6\\WindowsFormsApp1\\Form1.cs",
               "RelativeToolTip": "Form1.cs",
-              "ViewState": "AQIAAPkAAAAAAAAAAAAqwBIBAAAAAAAA",
+              "ViewState": "AQIAANAAAAAAAAAAAAAvwOUAAABSAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-23T10:27:55.701Z",
               "EditorCaption": ""
@@ -264,8 +263,7 @@
               "ToolTip": "C:\\Users\\katuha\\Documents\\files\\study\\5sem\\tkacheva_lr6\\WindowsFormsApp1\\Form1.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
               "RelativeToolTip": "Form1.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-23T09:44:44.409Z",
-              "EditorCaption": " [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]"
+              "WhenOpened": "2024-12-23T09:44:44.409Z"
             },
             {
               "$type": "Document",

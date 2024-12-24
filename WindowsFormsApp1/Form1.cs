@@ -92,16 +92,19 @@ namespace WindowsFormsApp1
             age.Text = String.Empty;
             group_name.Text = String.Empty;
             email.Text = String.Empty;
-            name.Visible = false;
-            lastname.Visible = false;
-            age.Visible = false;
-            label1.Visible = false;
-            label2.Visible = false;
-            label3.Visible = false;
-            group_name.Visible = false;
-            email.Visible = false;
-            label4.Visible = false;
-            label5.Visible = false;
+            if (group.Items.Count == 0)
+            {
+                name.Visible = false;
+                lastname.Visible = false;
+                age.Visible = false;
+                label1.Visible = false;
+                label2.Visible = false;
+                label3.Visible = false;
+                group_name.Visible = false;
+                email.Visible = false;
+                label4.Visible = false;
+                label5.Visible = false;
+            }
         }
 
         void name_TextChanged(object sender, EventArgs e)
