@@ -1,8 +1,6 @@
-﻿  pch.cpp
-  dllmain.cpp
+﻿  dllmain.cpp
   tkacheva_group.cpp
   tkacheva_headman.cpp
   tkacheva_student.cpp
   Создание кода...
-     Создается библиотека C:\Users\katuha\Documents\files\study\5sem\tkacheva_lr6\Dll\x64\Debug\Debug\Dll.lib и объект C:\Users\katuha\Documents\files\study\5sem\tkacheva_lr6\Dll\x64\Debug\Debug\Dll.exp
   Dll.vcxproj -> C:\Users\katuha\Documents\files\study\5sem\tkacheva_lr6\Dll\x64\Debug\Debug\Dll.dll

@@ -6,8 +6,8 @@ class tkacheva_headman : public tkacheva_student
 {
     friend class boost::serialization::access;
 private:
-    string group_name;
-    string email;
+    string group_name = "Группа";
+    string email = "Почта";
 public:
     BOOST_SERIALIZATION_SPLIT_MEMBER()
         tkacheva_headman() {}

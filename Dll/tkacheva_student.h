@@ -10,8 +10,8 @@ class tkacheva_student
 private:
     friend class boost::serialization::access;
 protected:
-    string name = "";
-    string last_name = "";
+    string name = "Имя";
+    string last_name = "Фамилия";
     int age = 0;
 public:
     tkacheva_student() {}

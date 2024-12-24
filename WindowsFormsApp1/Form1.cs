@@ -216,6 +216,7 @@ namespace WindowsFormsApp1
                     StringBuilder fileName = new StringBuilder(openFileDialog.FileName);
 
                     LoadData(fileName);
+                    currentIndex = 0;
                     UpdateListBox();
                 }
             }
