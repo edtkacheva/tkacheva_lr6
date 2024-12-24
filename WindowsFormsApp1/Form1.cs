@@ -61,7 +61,7 @@ namespace WindowsFormsApp1
         static extern void LoadData(StringBuilder filename);
 
         ClassStudent student;
-        int currentIndex;
+        int currentIndex = -1;
 
         public Form1()
         {
@@ -78,6 +78,10 @@ namespace WindowsFormsApp1
                 GetClassStudent(ref student, i);
                 group.Items.Add(student.lastname);
             }
+            if (currentIndex != -1)
+            {
+                group.SelectedIndex = currentIndex;
+            }
         }
 
         private void ClearTable()
@@ -91,44 +95,60 @@ namespace WindowsFormsApp1
 
         void name_TextChanged(object sender, EventArgs e)
         {
-            student.name = name.Text;
-            SetClassStudent(ref student, currentIndex);
-            UpdateListBox();
+
+            if (currentIndex != -1)
+            {
+                student.name = name.Text;
+                SetClassStudent(ref student, currentIndex);
+                UpdateListBox();
+            }
         }
 
         void lastname_TextChanged(object sender, EventArgs e)
         {
-            student.lastname = lastname.Text;
-            SetClassStudent(ref student, currentIndex);
-            UpdateListBox();
+            if (currentIndex != -1)
+            {
+                student.lastname = lastname.Text;
+                SetClassStudent(ref student, currentIndex);
+                UpdateListBox();
+            }
         }
 
         void age_TextChanged(object sender, EventArgs e)
         {
-            try
+            if (currentIndex != -1)
             {
-                student.age = (int)Convert.ToUInt32(age.Text);
+                try
+                {
+                    student.age = (int)Convert.ToUInt32(age.Text);
+                }
+                catch
+                {
+                    student.age = 0;
+                }
+                SetClassStudent(ref student, currentIndex);
+                UpdateListBox();
             }
-            catch
-            {
-                student.age = 0;
-            }
-            SetClassStudent(ref student, currentIndex);
-            UpdateListBox();
         }
 
         void group_name_TextChanged(object sender, EventArgs e)
         {
-            student.group_name = group_name.Text;
-            SetClassStudent(ref student, currentIndex);
-            UpdateListBox();
+            if (currentIndex != -1)
+            {
+                student.group_name = group_name.Text;
+                SetClassStudent(ref student, currentIndex);
+                UpdateListBox();
+            }
         }
 
         void email_TextChanged(object sender, EventArgs e)
         {
-            student.email = email.Text;
-            SetClassStudent(ref student, currentIndex);
-            UpdateListBox();
+            if (currentIndex != -1)
+            {
+                student.email = email.Text;
+                SetClassStudent(ref student, currentIndex);
+                UpdateListBox();
+            }
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -149,28 +169,34 @@ namespace WindowsFormsApp1
 
         private void button3_Click(object sender, EventArgs e)
         {
-            currentIndex = group.SelectedIndex;
             int tmp = currentIndex;
             if (currentIndex == -1)
                 return;
-            Erase(currentIndex);
-            group.Items.RemoveAt(currentIndex);
-            currentIndex = tmp;
+            Erase(tmp);
+            group.Items.RemoveAt(tmp);
             if (group.Items.Count == 0)
             {
                 currentIndex = -1;
-                return;
-            }
-            if (currentIndex == group.Items.Count)
-            {
-                group.SelectedIndex = group.Items.Count - 1;
-                currentIndex = group.SelectedIndex;
+                ClearTable();
             }
             else
             {
-                group.SelectedIndex = currentIndex;
-                currentIndex = group.SelectedIndex;
+                if (tmp == group.Items.Count)
+                {
+                    group.SelectedIndex = group.Items.Count - 1;
+                    currentIndex = group.SelectedIndex;
+                }
+                else
+                {
+                    if (group.Items.Count > tmp)
+                        group.SelectedIndex = tmp;
+                    else
+                        group.SelectedIndex = group.Items.Count - 1;
+                    currentIndex = group.SelectedIndex;
+
+                }
             }
+            UpdateListBox();
         }
 
         private void button4_Click(object sender, EventArgs e)
@@ -218,7 +244,6 @@ namespace WindowsFormsApp1
                 return;
             }
             GetClassStudent(ref student, currentIndex);
-
             name.Text = student.name;
             lastname.Text = student.lastname;
             age.Text = Convert.ToString(student.age);
