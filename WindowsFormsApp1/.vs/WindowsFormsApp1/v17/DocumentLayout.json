@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\katuha\\Documents\\files\\study\\5sem\\tkacheva_lr6\\WindowsFormsApp1\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{FEF9A98B-7448-45ED-92EE-17F36FCCDB60}|WindowsFormsApp1.csproj|C:\\Users\\katuha\\Documents\\files\\study\\5sem\\tkacheva_lr6\\WindowsFormsApp1\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FEF9A98B-7448-45ED-92EE-17F36FCCDB60}|WindowsFormsApp1.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{71A681FD-E90F-4D51-AE11-25E7DD8040F9}|..\\Dll\\Dll.vcxproj|C:\\Users\\katuha\\Documents\\files\\study\\5sem\\tkacheva_lr6\\Dll\\tkacheva_student.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
@@ -23,10 +27,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{FEF9A98B-7448-45ED-92EE-17F36FCCDB60}|WindowsFormsApp1.csproj|C:\\Users\\katuha\\Documents\\files\\study\\5sem\\tkacheva_lr6\\WindowsFormsApp1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FEF9A98B-7448-45ED-92EE-17F36FCCDB60}|WindowsFormsApp1.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FEF9A98B-7448-45ED-92EE-17F36FCCDB60}|WindowsFormsApp1.csproj|c:\\users\\katuha\\documents\\files\\study\\5sem\\tkacheva_lr6\\windowsformsapp1\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FEF9A98B-7448-45ED-92EE-17F36FCCDB60}|WindowsFormsApp1.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{FEF9A98B-7448-45ED-92EE-17F36FCCDB60}|WindowsFormsApp1.csproj|C:\\Users\\katuha\\Documents\\files\\study\\5sem\\tkacheva_lr6\\WindowsFormsApp1\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
@@ -55,7 +55,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 25,
+          "SelectedChildIndex": 26,
           "Children": [
             {
               "$type": "Bookmark",
@@ -123,7 +123,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "dll.h",
               "DocumentMoniker": "C:\\Users\\katuha\\Documents\\files\\study\\5sem\\tkacheva_lr6\\Dll\\dll.h",
               "RelativeDocumentMoniker": "..\\Dll\\dll.h",
@@ -131,12 +131,11 @@
               "RelativeToolTip": "..\\Dll\\dll.h",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-12-24T09:14:04.096Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-24T09:14:04.096Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "ClassStudent.h",
               "DocumentMoniker": "C:\\Users\\katuha\\Documents\\files\\study\\5sem\\tkacheva_lr6\\Dll\\ClassStudent.h",
               "RelativeDocumentMoniker": "..\\Dll\\ClassStudent.h",
@@ -144,12 +143,11 @@
               "RelativeToolTip": "..\\Dll\\ClassStudent.h",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-12-24T09:14:03.093Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-24T09:14:03.093Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "framework.h",
               "DocumentMoniker": "C:\\Users\\katuha\\Documents\\files\\study\\5sem\\tkacheva_lr6\\Dll\\framework.h",
               "RelativeDocumentMoniker": "..\\Dll\\framework.h",
@@ -157,12 +155,11 @@
               "RelativeToolTip": "..\\Dll\\framework.h",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-12-24T09:14:00.567Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-24T09:14:00.567Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "pch.h",
               "DocumentMoniker": "C:\\Users\\katuha\\Documents\\files\\study\\5sem\\tkacheva_lr6\\Dll\\pch.h",
               "RelativeDocumentMoniker": "..\\Dll\\pch.h",
@@ -170,8 +167,7 @@
               "RelativeToolTip": "..\\Dll\\pch.h",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAApAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-12-24T09:13:56.9Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-24T09:13:56.9Z"
             },
             {
               "$type": "Document",
@@ -235,26 +231,26 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "tkacheva_student.cpp",
               "DocumentMoniker": "C:\\Users\\katuha\\Documents\\files\\study\\5sem\\tkacheva_lr6\\Dll\\tkacheva_student.cpp",
               "RelativeDocumentMoniker": "..\\Dll\\tkacheva_student.cpp",
               "ToolTip": "C:\\Users\\katuha\\Documents\\files\\study\\5sem\\tkacheva_lr6\\Dll\\tkacheva_student.cpp",
               "RelativeToolTip": "..\\Dll\\tkacheva_student.cpp",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAARAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-12-23T19:59:39.549Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 0,
               "Title": "Form1.cs",
               "DocumentMoniker": "C:\\Users\\katuha\\Documents\\files\\study\\5sem\\tkacheva_lr6\\WindowsFormsApp1\\Form1.cs",
               "RelativeDocumentMoniker": "Form1.cs",
               "ToolTip": "C:\\Users\\katuha\\Documents\\files\\study\\5sem\\tkacheva_lr6\\WindowsFormsApp1\\Form1.cs",
               "RelativeToolTip": "Form1.cs",
-              "ViewState": "AQIAAAgBAAAAAAAAAAAUwBUBAAAAAAAA",
+              "ViewState": "AQIAAPkAAAAAAAAAAAAqwBIBAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-23T10:27:55.701Z",
               "EditorCaption": ""
@@ -273,7 +269,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\katuha\\Documents\\files\\study\\5sem\\tkacheva_lr6\\WindowsFormsApp1\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
@@ -281,12 +277,11 @@
               "RelativeToolTip": "Program.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-23T10:33:34.282Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-23T10:33:34.282Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "dllmain.cpp",
               "DocumentMoniker": "C:\\Users\\katuha\\Documents\\files\\study\\5sem\\tkacheva_lr6\\Dll\\dllmain.cpp",
               "RelativeDocumentMoniker": "..\\Dll\\dllmain.cpp",
@@ -294,8 +289,7 @@
               "RelativeToolTip": "..\\Dll\\dllmain.cpp",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAACAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-12-23T15:54:28.603Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-23T15:54:28.603Z"
             }
           ]
         }

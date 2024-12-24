@@ -66,6 +66,7 @@ namespace WindowsFormsApp1
         public Form1()
         {
             InitializeComponent();
+            ClearTable();
         }
 
         private void UpdateListBox()
@@ -91,6 +92,16 @@ namespace WindowsFormsApp1
             age.Text = String.Empty;
             group_name.Text = String.Empty;
             email.Text = String.Empty;
+            name.Visible = false;
+            lastname.Visible = false;
+            age.Visible = false;
+            label1.Visible = false;
+            label2.Visible = false;
+            label3.Visible = false;
+            group_name.Visible = false;
+            email.Visible = false;
+            label4.Visible = false;
+            label5.Visible = false;
         }
 
         void name_TextChanged(object sender, EventArgs e)
@@ -252,6 +263,12 @@ namespace WindowsFormsApp1
                 return;
             }
             GetClassStudent(ref student, currentIndex);
+            name.Visible = true;
+            lastname.Visible = true;
+            age.Visible = true;
+            label1.Visible = true;
+            label2.Visible = true;
+            label3.Visible = true;
             name.Text = student.name;
             lastname.Text = student.lastname;
             age.Text = Convert.ToString(student.age);
